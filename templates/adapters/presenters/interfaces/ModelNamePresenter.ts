@@ -1,4 +1,4 @@
-import { ModelName } from "../../../domains/entities/ModelName"
+import { ModelName } from '../../../domains/entities/ModelName'
 
 export interface ModelNamePresenter {
   getAll: () => Promise<ModelName[]>

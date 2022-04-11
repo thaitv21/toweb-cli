@@ -1,6 +1,9 @@
-import { ModelName } from "../../domains/entities/ModelName";
-import { createModelNameUseCase, deleteModelNameUseCase, getAllModelNameUseCase, getModelNameUseCase, updateModelNameUseCase } from "../../domains/useCases";
-import { ModelNamePresenter } from "./interfaces/ModelNamePresenter";
+import { ModelName } from '../../domains/entities/ModelName';
+import { 
+  createModelNameUseCase, deleteModelNameUseCase, getAllModelNameUseCase, 
+  getModelNameUseCase, updateModelNameUseCase,
+} from '../../domains/useCases';
+import { ModelNamePresenter } from './interfaces/ModelNamePresenter';
 
 export default class ModelNamePresenterImpl implements ModelNamePresenter {
   getAll = async () => getAllModelNameUseCase.invoke();

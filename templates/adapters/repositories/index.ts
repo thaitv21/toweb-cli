@@ -1,5 +1,5 @@
-import { ModelNameRepository } from "./interface/ModelNameRepository";
-import ModelNameRepositoryImpl from "./ModelNameRepositoryImpl";
+import { ModelNameRepository } from './interfaces/ModelNameRepository';
+import ModelNameRepositoryImpl from './ModelNameRepositoryImpl';
 
 interface Repositories {
   modelNameRepository: ModelNameRepository,

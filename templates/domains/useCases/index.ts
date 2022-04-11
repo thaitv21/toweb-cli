@@ -2,11 +2,11 @@ import CreateModelNameUseCaseImpl from "./CreateModelNameUseCaseImpl";
 import DeleteModelNameUseCaseImpl from "./DeleteModelNameUseCaseImpl";
 import GetAllModelNameUseCaseImpl from "./GetAllModelNameUseCaseImpl";
 import GetModelNameUseCaseImpl from "./GetModelNameUseCaseImpl";
-import { CreateModelNameUseCase } from "./interface/CreateModelNameUseCase";
-import { DeleteModelNameUseCase } from "./interface/DeleteModelNameUseCase";
-import { GetAllModelNameUseCase } from "./interface/GetAllModelNameUseCase";
-import { GetModelNameUseCase } from "./interface/GetModelNameUseCase";
-import { UpdateModelNameUseCase } from "./interface/UpdateModelNameUseCase";
+import { CreateModelNameUseCase } from "./interfaces/CreateModelNameUseCase";
+import { DeleteModelNameUseCase } from "./interfaces/DeleteModelNameUseCase";
+import { GetAllModelNameUseCase } from "./interfaces/GetAllModelNameUseCase";
+import { GetModelNameUseCase } from "./interfaces/GetModelNameUseCase";
+import { UpdateModelNameUseCase } from "./interfaces/UpdateModelNameUseCase";
 import UpdateModelNameUseCaseImpl from "./UpdateModelNameUseCaseImpl";
 
 interface UseCases {

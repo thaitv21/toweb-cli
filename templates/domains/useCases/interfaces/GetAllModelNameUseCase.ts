@@ -1,4 +1,4 @@
-import { ModelName } from "../../entities/ModelName";
+import { ModelName } from '../../entities/ModelName';
 
 export interface GetAllModelNameUseCase {
   invoke: () => Promise<ModelName[]>

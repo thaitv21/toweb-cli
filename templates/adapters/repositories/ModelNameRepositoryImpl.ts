@@ -1,5 +1,5 @@
 import { ModelName } from '../../domains/entities/ModelName';
-import { ModelNameRepository } from './interface/ModelNameRepository';
+import { ModelNameRepository } from './interfaces/ModelNameRepository';
 
 export default class ModelNameRepositoryImpl implements ModelNameRepository {
   getAll = async () => {
